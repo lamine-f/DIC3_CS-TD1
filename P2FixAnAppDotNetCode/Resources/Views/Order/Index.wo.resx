@@ -58,22 +58,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChangeLanguage" xml:space="preserve">
-    <value>Seleccione</value>
+  <data name="Adress" xml:space="preserve">
+    <value>Adres</value>
   </data>
-  <data name="Language" xml:space="preserve">
-    <value>Idioma</value>
+  <data name="City" xml:space="preserve">
+    <value>Dekk</value>
   </data>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Ingles</value>
+  <data name="CompleteOrder" xml:space="preserve">
+    <value>Jeexal commande bi</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Frances</value>
+  <data name="Country" xml:space="preserve">
+    <value>Reew</value>
   </data>
-  <data name="LanguageSpanish" xml:space="preserve">
-    <value>Espanol</value>
+  <data name="EnterDetails" xml:space="preserve">
+    <value>Te nungiy yobu sa commande leegi!</value>
   </data>
-  <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+  <data name="Location" xml:space="preserve">
+    <value>Taxawaay</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Tur</value>
+  </data>
+  <data name="OrderTitle" xml:space="preserve">
+    <value>Bindal formulaire bi</value>
+  </data>
+  <data name="ShipSoon" xml:space="preserve">
+    <value>Dinanu la ko yobu bu gaaw.</value>
+  </data>
+  <data name="ShipTo" xml:space="preserve">
+    <value>Yobu ci</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Code postal</value>
   </data>
 </root>

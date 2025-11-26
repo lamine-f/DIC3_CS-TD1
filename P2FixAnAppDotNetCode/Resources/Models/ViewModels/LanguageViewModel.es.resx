@@ -67,4 +67,7 @@
   <data name="LanguageSpanish" xml:space="preserve">
     <value>Espanol</value>
   </data>
+  <data name="LanguageWolof" xml:space="preserve">
+    <value>Wolof</value>
+  </data>
 </root>

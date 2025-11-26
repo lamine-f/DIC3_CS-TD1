@@ -58,22 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChangeLanguage" xml:space="preserve">
-    <value>Seleccione</value>
+  <data name="DemoEnding" xml:space="preserve">
+    <value>Nungiy yobu sa commande. Demo bi jeex na, betal ci logo bi ngir door fofou.</value>
   </data>
-  <data name="Language" xml:space="preserve">
-    <value>Idioma</value>
-  </data>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Ingles</value>
-  </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Frances</value>
-  </data>
-  <data name="LanguageSpanish" xml:space="preserve">
-    <value>Espanol</value>
-  </data>
-  <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+  <data name="Thanks" xml:space="preserve">
+    <value>Jerejetf!</value>
   </data>
 </root>

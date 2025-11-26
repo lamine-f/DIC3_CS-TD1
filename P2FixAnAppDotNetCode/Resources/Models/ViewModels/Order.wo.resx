@@ -58,22 +58,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChangeLanguage" xml:space="preserve">
-    <value>Seleccione</value>
+  <data name="ErrorMissingAddress" xml:space="preserve">
+    <value>Bindal sa adres</value>
   </data>
-  <data name="Language" xml:space="preserve">
-    <value>Idioma</value>
+  <data name="ErrorMissingCity" xml:space="preserve">
+    <value>Bindal turub dekk bi</value>
   </data>
-  <data name="LanguageEnglish" xml:space="preserve">
-    <value>Ingles</value>
+  <data name="ErrorMissingCountry" xml:space="preserve">
+    <value>Bindal turub reew mi</value>
   </data>
-  <data name="LanguageFrench" xml:space="preserve">
-    <value>Frances</value>
-  </data>
-  <data name="LanguageSpanish" xml:space="preserve">
-    <value>Espanol</value>
-  </data>
-  <data name="LanguageWolof" xml:space="preserve">
-    <value>Wolof</value>
+  <data name="ErrorMissingName" xml:space="preserve">
+    <value>Bindal sa tur</value>
   </data>
 </root>

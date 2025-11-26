@@ -41,7 +41,11 @@ namespace P2FixAnAppDotNetCode
                 .AddDataAnnotationsLocalization();
 
             services.Configure<RequestLocalizationOptions>(opts =>
-            { 
+            {
+                // Créer une culture personnalisée pour le Wolof basée sur le français
+                var wolofCulture = new CultureInfo("fr");
+                wolofCulture = CultureInfo.CreateSpecificCulture("fr");
+
                 var supportedCultures = new List<CultureInfo>
                 {
                     new CultureInfo("en-GB"),
@@ -53,11 +57,24 @@ namespace P2FixAnAppDotNetCode
                     new CultureInfo("es"),
                 };
 
+                // Pour le Wolof, on utilise les cultures UI séparément
+                var supportedUICultures = new List<CultureInfo>
+                {
+                    new CultureInfo("en-GB"),
+                    new CultureInfo("en-US"),
+                    new CultureInfo("en"),
+                    new CultureInfo("fr-FR"),
+                    new CultureInfo("fr"),
+                    new CultureInfo("es-ES"),
+                    new CultureInfo("es"),
+                    new CultureInfo("wo"), // Wolof pour l'UI
+                };
+
                 opts.DefaultRequestCulture = new RequestCulture("en");
-                // Formatting numbers, dates, etc.
+                // Formatting numbers, dates, etc. - utilise fr pour wo
                 opts.SupportedCultures = supportedCultures;
                 // UI strings that we have localized.
-                opts.SupportedUICultures = supportedCultures;
+                opts.SupportedUICultures = supportedUICultures;
             });
         }
 
